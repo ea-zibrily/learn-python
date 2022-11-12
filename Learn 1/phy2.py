@@ -1,10 +1,13 @@
+#coba program python 2
+#by ea-zbryly
+
 eraserCost = 1800
 dozenEraser = 1800 * 12
 luthfanMoney = 10000 * 3
 totalCost = luthfanMoney - dozenEraser
 
-print("Eraser Cost Program")
-print("--------------------")
+print("Program Penghitung Harga")
+print("------------------------")
 
 print("Luthfan ingin membeli satu lusin penghapus")
 

@@ -2,8 +2,10 @@
 #by ea-zbryly
 
 afaMarbles = 260
-print("Jumlah kelereng awal Afa adalah %d" %afaMarbles)
-
 loseMarbles = afaMarbles - 180
 
-print("Jumlah kelereng Afa setelah kalah adalah %d" %loseMarbles)
+print("Program Penghitung Kelereng")
+print("---------------------------")
+
+print("Jumlah kelereng awal Afa adalah %d" %afaMarbles)
+print("Jumlah kelereng Afa setelah kalah 180 kelereng adalah %d" %loseMarbles)
