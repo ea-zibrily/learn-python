@@ -1,10 +1,13 @@
-#Menghitung rata-rata dari 3 bilangan bulat sembarang
-#by ea-zibrily
+# Menghitung rumus fungsi f(x)
+# by ea-zibrily
 
-enterName = input("Masukkan nama anda: ")
-enterNumber1 = int(input("Masukkan bilangan bulat pertama: "))
-enterNumber2 = int(input("Masukkan bilangan bulat kedua: "))
-enterNumber3 = int(input("Masukkan bilangan bulat ketiga: "))
-averageNumber = float((enterNumber1 + enterNumber2 + enterNumber3) / 3)
+def f(x):
+    y = 2 * x**3 +2 * x + 15 / x
+    return y
 
-print("Rata-rata dari %d, %d, dan %d adalah %.2f" %(enterNumber1, enterNumber2, enterNumber3, averageNumber))
+#Main Program
+print("Menghitung Fungsi f(x)")
+print("---------------------------")
+enterNumber = int(input("Masukkan nilai x: "))
+hasil = float(enterNumber)
+print("Nilai f(%d) adalah %.2f" % (enterNumber, hasil))
