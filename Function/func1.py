@@ -1,3 +1,7 @@
+# Buatlah program untuk memasukkan biodata mahasiswa
+# by ea-zibrily
+
+#Make Function
 def biodata():
     print("Masukkan data diri anda: ")
 
